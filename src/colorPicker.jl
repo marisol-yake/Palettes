@@ -12,7 +12,7 @@ function random_HSV() :: HSV
     return HSV(h, s, v)
 end
 
-function random_hue(hsv) :: HSV
+function random_hue(hsv::HSV) :: HSV
     #=
     If there's an existing HSV object, modify it
     Or create a new HSV object with a randomized hue.
@@ -24,7 +24,7 @@ function random_hue(hsv) :: HSV
     end
 end
 
-function random_saturation(hsv) :: HSV
+function random_saturation(hsv::HSV) :: HSV
     #=
     If there's an existing HSV object, modify it
     Or create a new HSV object with a randomized saturation.
@@ -36,7 +36,7 @@ function random_saturation(hsv) :: HSV
     end
 end
 
-function random_value(hsv) :: HSV
+function random_value(hsv::HSV) :: HSV
     #=
     If there's an existing HSV object, modify it
     Or create a new HSV object with a randomized value.

@@ -3,6 +3,7 @@ module Palettes
 using Colors
 using ColorTypes
 using Random
+using Test
 
 export HSV_to_RGB, hex_to_RGB, RGB_to_HSV
 export HSV_to_hex , hex_to_HSV
